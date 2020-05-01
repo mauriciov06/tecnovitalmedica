@@ -1,0 +1,3 @@
+{!!Form::text('nombre_institucion',null,['id'=>'nombre_inst', 'class'=>'form-control', 'placeholder'=>"Nombre de la institucion"])!!}
+{!!Form::text('correo_institucion',null,['id'=>'correo_inst', 'class'=>'form-control', 'placeholder'=>"Correo de la institucion"])!!}
+{!!Form::select('ciudad_institucion',$ciudades, null, ['id'=>'ciudad_inst', 'class'=>'form-control', 'placeholder'=>"Seleccionar ciudad"])!!}

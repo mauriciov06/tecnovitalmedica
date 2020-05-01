@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Tecnovitalmedica
+        psr4_prefix: Tecnovitalmedica
+        src_path: app
